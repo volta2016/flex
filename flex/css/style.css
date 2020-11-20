@@ -10,7 +10,7 @@
     --blueOne: #1990f8;
     --blueTwo: hsl(203, 89%, 53%);
     --yellow:  hsl(37, 97%, 70%);
-    --pink: hsl(329, 70%, 58%);
+    --pink:pink;
     --red: hsl(348, 97%, 39%);
     --black: #1f1f1f;
     --gray: #5f616d;
@@ -23,6 +23,10 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-size: var(--m);
 }
 
 .wrapper {
@@ -42,7 +46,7 @@ body {
 .flex-items {
     width: 100px;
     padding: 1rem;
-    background-color: var(--grayf);
+    background-color: var(--pink);
     height: 50px;
     color: var(--black);
     font-size: var(--m);
